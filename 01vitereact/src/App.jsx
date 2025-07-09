@@ -1,9 +1,12 @@
-
+import Chai from "./Chai"
 
 function App() {
-
+  const username="Chao aur code"
   return (
-   <h1>CHAI AUR REACT with vite | KS</h1>
+   <><Chai/>
+   <h1>Chai aur react {username}</h1>
+   <p>test para</p>
+   </>
   )
 }
 
